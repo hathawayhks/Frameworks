@@ -22,6 +22,3 @@ function criarTabela {
     }
     pai.appendChild(tabela);
 }
-
-
-
