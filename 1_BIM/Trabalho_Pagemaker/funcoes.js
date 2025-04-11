@@ -119,4 +119,26 @@ function configEstiloCabecalho() {
     novaJanela.document.write(html);
     novaJanela.document.close();
   }
+
+  function aplicarPapelParede() {
+  const url = document.getElementById("bgUrl").value.trim();
+  const body = document.getElementById("body");
+  if (url) {
+    body.style.backgroundImage = `url('${url}')`;
+  } else {
+    body.style.backgroundImage = "";
+  }
+}
+function aplicarPapelParede() {
+    const url = document.getElementById("bgUrl").value.trim();
+    const body = document.getElementById("body");
+    if (url) {
+      body.style.backgroundImage = `url('${url}')`;
+    } else {
+      body.style.backgroundImage = "";
+    }
+  }
+  
+  
+  
   
